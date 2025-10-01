@@ -1,0 +1,24 @@
+package Homework;
+
+public class Main {
+    public static void main(String[] args) {
+        showSum(3, 4);
+        showSum(5, 6);
+    }
+
+    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+    // to see how IntelliJ IDEA suggests fixing it.
+    private static void showSum(int number1, int number2) {
+        print(number1 + number2);
+        print(number1 - number2);
+        print(number1 * number2);
+        print(number1 / number2);
+    }
+
+    private static void print(int number) {
+        System.out.println(number);
+        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+
+    }
+}
