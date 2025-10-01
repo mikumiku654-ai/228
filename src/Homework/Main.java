@@ -4,15 +4,24 @@ public class Main {
     public static void main(String[] args) {
         showSum(3, 4);
         showSum(5, 6);
+        showDivide(3, 1);
+        showMult(2,2);
+        showMinus(5,2);
     }
 
     //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
     // to see how IntelliJ IDEA suggests fixing it.
     private static void showSum(int number1, int number2) {
         print(number1 + number2);
-        print(number1 - number2);
-        print(number1 * number2);
-        print(number1 / number2);
+    }
+    private static void showDivide(int number1, int number2) {
+        print (number1 / number2);
+    }
+    private static void showMult(int number1, int number2) {
+        print (number1 * number2);
+    }
+    private static void showMinus(int number1, int number2) {
+        print (number1 - number2);
     }
 
     private static void print(int number) {
